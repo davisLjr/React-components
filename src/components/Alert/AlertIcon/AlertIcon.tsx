@@ -1,4 +1,4 @@
-import { Children, Class } from '@/utils/utils';
+import { Class } from '@/utils/utils';
 import React, { ReactNode } from 'react'
 
 export type AlertIconProps = {

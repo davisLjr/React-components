@@ -1,5 +1,5 @@
 import { Children, Class } from '@/utils/utils';
-import React, { ReactNode } from 'react'
+import React from 'react'
 
 export type AlertDescriptionProps = {
   description?: string;
