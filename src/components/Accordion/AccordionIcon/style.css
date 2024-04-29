@@ -1,0 +1,7 @@
+.open {
+  transform: rotate(90deg);
+}
+
+.close {
+  transform: rotate(0deg);
+}

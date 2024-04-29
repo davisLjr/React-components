@@ -1,7 +1,6 @@
 import { Children, Class } from '@/utils/utils';
-import React, { createContext, useContext, useState } from 'react';
+import React, { createContext, useState } from 'react';
 
-// Creamos el contexto AccordionContext
 export const AccordionContext = createContext<any>(null);
 
 type AccordionProps = {
