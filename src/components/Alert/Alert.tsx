@@ -9,8 +9,10 @@ type AlertProps = {
 export default function Alert ({ children, className, status, ...rest }: AlertProps) {
   const statusClass = ["success", "warning", "danger"].includes(status) ? status : "info";
 
+  const combinedClassName = `${className ? className + ' ' : ''}${statusClass}`;
+
   return (
-    <div className={`${className} ${statusClass} `} {...rest}>
+    <div className={combinedClassName} {...rest}>
       {children}
     </div>
   );
