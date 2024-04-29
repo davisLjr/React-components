@@ -2,7 +2,7 @@ import React from "react";
 import { ProgressBarProps } from "../ProgressBar";
 
 // Componente de barra de progreso circular
-export default function CircularProgressBar ({ value, maxValue = 100 }: ProgressBarProps) {
+export default function CircularProgressBar ({ value, maxValue = 100, className }: ProgressBarProps) {
   // Calculamos el porcentaje de progreso
   const progressPercentage = (value / maxValue) * 100;
   const circumference = 2 * Math.PI * 45; // Circunferencia del círculo
@@ -17,6 +17,7 @@ export default function CircularProgressBar ({ value, maxValue = 100 }: Progress
         height: '100px',
         position: 'relative',
       }}
+      className={className}
     >
       <svg width="100%" height="100%" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
         {/* Círculo de fondo */}

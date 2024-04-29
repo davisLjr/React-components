@@ -26,10 +26,10 @@ export const keyframes = `@keyframes loading {
   }
 }`;
 
-export default function Skeleton ({ styles, children, isLoaded = false }: SkeletonProps) {
+export default function Skeleton ({ styles, children, isLoaded = false, className }: SkeletonProps) {
   const mergedStyles: CSSProperties = isLoaded ? {} : { ...defaultStyles, ...styles };
   return (
-    <div style={mergedStyles} data-is-loaded={isLoaded}>
+    <div style={mergedStyles} data-is-loaded={isLoaded} className={className}>
       {isLoaded ? children : null}
       <style>{keyframes}</style>
     </div>
