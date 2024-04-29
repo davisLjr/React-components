@@ -1,3 +1,4 @@
+//es necesario genera un fix sobre este componente a futuro, ya que poemos dejar los comentarios que indican el funcionamiento del mismo, pero los estilos deben pasar a estar e una hoja por separado del componente
 import React from 'react';
 
 // Tipo de las props del componente
