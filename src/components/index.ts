@@ -16,6 +16,7 @@ export { default as DrawerCloseButton } from './Drawer/DrawerCloseButton';
 export { default as Menu } from './Menu';
 export { default as Modal } from './Modal'
 export { default as ProgressBar } from './ProgressBar';
+export { default as SimpleGallery } from './SimpleGallery'
 export { default as Skeleton } from './Skeleton';
 export { default as SkeletonCircle } from './Skeleton/SkeletonCircle';
 export { default as SkeletonText } from './Skeleton/SkeletonText';
