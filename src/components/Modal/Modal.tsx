@@ -1,3 +1,4 @@
+//Este documento contiene algunos comentarios que indican el porque de los estilos o condicional de clase aplicada al componente, seguramente mas adelante se utilizaran para separar los estilos en hojas separadas.
 import React, { CSSProperties } from 'react';
 import { Children, Class } from '@/utils/utils';
 

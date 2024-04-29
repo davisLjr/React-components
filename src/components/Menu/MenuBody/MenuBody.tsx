@@ -1,4 +1,4 @@
-// MenuBody.tsx
+// MenuBody.tsx Este documento contiene comentarios para comprender el funcionamiento del componente.
 import React from 'react';
 import { Class, Children } from '@/utils/utils';
 
