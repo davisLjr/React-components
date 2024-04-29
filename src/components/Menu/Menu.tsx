@@ -8,13 +8,13 @@ interface MenuProps extends Class {
 }
 
 export default function Menu ({ children, className, setIsOpen }: MenuProps & Children & Class) {
-  const [isOpen, setIsOpenLocal] = useState(false); // Cambiado para evitar confusión
+  const [isOpen, setIsOpenLocal] = useState(false);
   const menuRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       if (menuRef.current && !menuRef.current.contains(event.target as Node)) {
-        setIsOpenLocal(false); // Cambiado para evitar confusión
+        setIsOpenLocal(false);
       }
     };
 
@@ -26,8 +26,8 @@ export default function Menu ({ children, className, setIsOpen }: MenuProps & Ch
   }, []);
 
   const toggleMenu = () => {
-    setIsOpenLocal((prevIsOpen) => !prevIsOpen); // Cambiado para evitar confusión
-    setIsOpen((prevIsOpen) => !prevIsOpen); // Pasar setIsOpen al componente padre
+    setIsOpenLocal((prevIsOpen) => !prevIsOpen);
+    setIsOpen((prevIsOpen) => !prevIsOpen);
   };
 
   return (
