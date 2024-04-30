@@ -13,6 +13,7 @@ export { default as CircularProgressBar } from './ProgressBar/CircularProgressBa
 export { default as Divider } from './Divider';
 export { default as Drawer } from './Drawer';
 export { default as DrawerCloseButton } from './Drawer/DrawerCloseButton';
+export { default as ImgTransition } from './ImgTransition';
 export { default as Menu } from './Menu';
 export { default as Modal } from './Modal'
 export { default as ProgressBar } from './ProgressBar';
