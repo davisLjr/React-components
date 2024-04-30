@@ -40,6 +40,8 @@ import Divider from "@test/Divider"
 
 import Tag from "@test/Tag"
 
+import ImgTransition from "@test/ImgTransition"
+
 import SimpleGallery from "@test/SimpleGallery"
 
 import { useState } from "react"
@@ -234,6 +236,11 @@ export default function Home () {
       <Tag>
         <span>Esto es un tag</span>
       </Tag>
+
+      <ImgTransition>
+        <img src="https://grupovierci.brightspotcdn.com/dims4/default/881b679/2147483647/strip/true/crop/1080x608+0+159/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk2-prod-grupo-vierci.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff0%2F6d%2Fd997e8ec459e8ec828a054dda990%2Fcavani.jpg" />
+        <img src="https://www.ole.com.ar/2024/04/22/49E3D3oeC_960x460__1.jpg" />
+      </ImgTransition>
 
       <SimpleGallery>
         <img src="https://images.pexels.com/photos/2387877/pexels-photo-2387877.jpeg?cs=srgb&dl=pexels-samkolder-2387877.jpg&fm=jpg" alt="" />
