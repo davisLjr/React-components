@@ -21,7 +21,7 @@ const Modal: React.FC<ModalProps & Class & Children> = ({ children, className, i
   };
 
   // Agregar la clase "open" si isOpen es true
-  const modalClassName = `modal ${className} ${isOpen ? 'open' : ''}`;
+  const modalClassName = `modal${className ? ` ${className}` : ''}${isOpen ? ' open' : ''}`;
 
   const modalStyle: CSSProperties = {
     transition: 'opacity 0.3s ease-in-out',
