@@ -42,7 +42,10 @@ import Tag from "@test/Tag"
 
 import ImgTransition from "@test/ImgTransition"
 
+import SimpleGallery from "@test/SimpleGallery"
+
 import { useState } from "react"
+import Image from "next/image"
 
 export default function Home () {
   const [showAlert, setShowAlert] = useState(false);
@@ -238,6 +241,19 @@ export default function Home () {
         <img src="https://grupovierci.brightspotcdn.com/dims4/default/881b679/2147483647/strip/true/crop/1080x608+0+159/resize/1000x563!/quality/90/?url=https%3A%2F%2Fk2-prod-grupo-vierci.s3.us-east-1.amazonaws.com%2Fbrightspot%2Ff0%2F6d%2Fd997e8ec459e8ec828a054dda990%2Fcavani.jpg" />
         <img src="https://www.ole.com.ar/2024/04/22/49E3D3oeC_960x460__1.jpg" />
       </ImgTransition>
+
+      <SimpleGallery>
+        <img src="https://images.pexels.com/photos/2387877/pexels-photo-2387877.jpeg?cs=srgb&dl=pexels-samkolder-2387877.jpg&fm=jpg" alt="" />
+        <img src="https://images.pexels.com/photos/1906658/pexels-photo-1906658.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQd6o7SmoW2LUH0vOZzMCiHsXiSV3Er9-XGmhCBWUejXiLe5Rj5bHm5fZTq-R4Gwl3Ub-4&usqp=CAU" alt="" />
+        <img src="https://i.pinimg.com/736x/a6/f3/20/a6f320de23ad2ccd5047e441a61da53c.jpg" alt="" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNPq57NxsJEe1LEnzfY9n0qlDY-SrsqaALL9roafiIWPqI_8TYpAYlInh8dMwnWt6i4UE&usqp=CAU" alt="" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFPRykpzHn-_XhR93fbmImaJNKIpeXTfal7lnBK78ql9duMqNJbf8wxa1G30kotw4nxx4&usqp=CAU" alt="" />
+        <img src="https://w0.peakpx.com/wallpaper/265/320/HD-wallpaper-starry-night-forest-lights-winter-thumbnail.jpg" alt="" />
+        <img src="https://e0.pxfuel.com/wallpapers/399/172/desktop-wallpaper-starry-sky-blue-starry-night.jpg" alt="" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6lwEDPSNzx_F5t_8gNJZBLCwyqa41CUBGrzk8kEMB9rwYem5f1ZQcHz2Yh7LnM39HdFE&usqp=CAU" alt="" />
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSP9PUbN78aZY1fCPMLWKsWiBaCJ2MpeUAFqiwP6yuHN3iRqGP8b036LnGy7CzDFui45yo&usqp=CAU" alt="" />
+      </SimpleGallery>
     </main>
   );
 }
